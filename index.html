@@ -1,0 +1,831 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emmageo3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/91289841?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/91289841?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Emma Geo</span><a href="https://github.com/Emmageo3">@Emmageo3</a></div>
+      <div id="userbio" style="display: none;">undefined</div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="emmageo3.github.io/portfolio">emmageo3.github.io/portfolio</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Dakar</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/papi18011998/Groupe_6_P4" target="_blank">
+                        <section>
+                            <div class="section_title">Groupe_6_P4</div>
+                            <div class="about_section">
+                            <span style="display:block;">Ce repository permet la collaboration entre apprenant.Chaque apprenant devra creer au moins 3 fichiers (php,css,img) pour montrer l'interet des outils de versionning</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/papi18011998/Atelier3_Groupe_6_P4" target="_blank">
+                        <section>
+                            <div class="section_title">Atelier3_Groupe_6_P4</div>
+                            <div class="about_section">
+                            <span style="display:block;">Cette atelier permet de faire des test covid</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/algorithmecovidjs" target="_blank">
+                        <section>
+                            <div class="section_title">algorithmecovidjs</div>
+                            <div class="about_section">
+                            <span style="display:block;">Algorithme de test covid écrit avec javascript</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/ToDoList" target="_blank">
+                        <section>
+                            <div class="section_title">ToDoList</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Generateur-de-citations" target="_blank">
+                        <section>
+                            <div class="section_title">Generateur-de-citations</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Chapelet-numerique" target="_blank">
+                        <section>
+                            <div class="section_title">Chapelet-numerique</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Calculateur-IMC" target="_blank">
+                        <section>
+                            <div class="section_title">Calculateur-IMC</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Convertisseur-de-devises" target="_blank">
+                        <section>
+                            <div class="section_title">Convertisseur-de-devises</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/calendrier" target="_blank">
+                        <section>
+                            <div class="section_title">calendrier</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/coursera-test" target="_blank">
+                        <section>
+                            <div class="section_title">coursera-test</div>
+                            <div class="about_section">
+                            <span style="display:block;">coursera test repository</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/pages" target="_blank">
+                        <section>
+                            <div class="section_title">pages</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/EpsilonCoder/Gaming" target="_blank">
+                        <section>
+                            <div class="section_title">Gaming</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/integration" target="_blank">
+                        <section>
+                            <div class="section_title">integration</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Emmageo3.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">Emmageo3.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/OnePiece.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">OnePiece.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">quizz_OnePiece</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/OnePieceQuiz.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">OnePieceQuiz.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/OnePieceQuiz" target="_blank">
+                        <section>
+                            <div class="section_title">OnePieceQuiz</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/OnePieceQuizz.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">OnePieceQuizz.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/EmmaAppli" target="_blank">
+                        <section>
+                            <div class="section_title">EmmaAppli</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/AppliOnePiece" target="_blank">
+                        <section>
+                            <div class="section_title">AppliOnePiece</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/portfolioEmma.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">portfolioEmma.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/portfolio.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">portfolio.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/strokeAnimation.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">strokeAnimation.github.io</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Compte-a-rebours" target="_blank">
+                        <section>
+                            <div class="section_title">Compte-a-rebours</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/FoodLandingPage" target="_blank">
+                        <section>
+                            <div class="section_title">FoodLandingPage</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/PortfolioApp" target="_blank">
+                        <section>
+                            <div class="section_title">PortfolioApp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Kotlin</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/SimplonToDoList" target="_blank">
+                        <section>
+                            <div class="section_title">SimplonToDoList</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 6</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Ecommerce-website-design" target="_blank">
+                        <section>
+                            <div class="section_title">Ecommerce-website-design</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/FirebaseProject" target="_blank">
+                        <section>
+                            <div class="section_title">FirebaseProject</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/boite-a-idees" target="_blank">
+                        <section>
+                            <div class="section_title">boite-a-idees</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/horloge-javascript" target="_blank">
+                        <section>
+                            <div class="section_title">horloge-javascript</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/GoogleMapAPI" target="_blank">
+                        <section>
+                            <div class="section_title">GoogleMapAPI</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Drum-Kit-Javascript" target="_blank">
+                        <section>
+                            <div class="section_title">Drum-Kit-Javascript</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/clone-de-twitter-1" target="_blank">
+                        <section>
+                            <div class="section_title">clone-de-twitter-1</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/ListApp" target="_blank">
+                        <section>
+                            <div class="section_title">ListApp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/ListeApp" target="_blank">
+                        <section>
+                            <div class="section_title">ListeApp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/covid-19-website" target="_blank">
+                        <section>
+                            <div class="section_title">covid-19-website</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/chatApp" target="_blank">
+                        <section>
+                            <div class="section_title">chatApp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/portfolio" target="_blank">
+                        <section>
+                            <div class="section_title">portfolio</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/Emmageo3" target="_blank">
+                        <section>
+                            <div class="section_title">Emmageo3</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/groceryShop" target="_blank">
+                        <section>
+                            <div class="section_title">groceryShop</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/animated_emoji" target="_blank">
+                        <section>
+                            <div class="section_title">animated_emoji</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/resto" target="_blank">
+                        <section>
+                            <div class="section_title">resto</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/laravel-ecommerce" target="_blank">
+                        <section>
+                            <div class="section_title">laravel-ecommerce</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/PHPTest" target="_blank">
+                        <section>
+                            <div class="section_title">PHPTest</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/tutoWP" target="_blank">
+                        <section>
+                            <div class="section_title">tutoWP</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/projetPHP" target="_blank">
+                        <section>
+                            <div class="section_title">projetPHP</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/emmasendigitour" target="_blank">
+                        <section>
+                            <div class="section_title">emmasendigitour</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/CRUDphp" target="_blank">
+                        <section>
+                            <div class="section_title">CRUDphp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/personal-website" target="_blank">
+                        <section>
+                            <div class="section_title">personal-website</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/loginForm" target="_blank">
+                        <section>
+                            <div class="section_title">loginForm</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/restaurant" target="_blank">
+                        <section>
+                            <div class="section_title">restaurant</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/fermeCBD" target="_blank">
+                        <section>
+                            <div class="section_title">fermeCBD</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/kilifabarbershop" target="_blank">
+                        <section>
+                            <div class="section_title">kilifabarbershop</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Emmageo3/APIwordpress" target="_blank">
+                        <section>
+                            <div class="section_title">APIwordpress</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
